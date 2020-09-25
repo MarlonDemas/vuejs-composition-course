@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "test": "yarn jest",
+    "test": "jest --watch",
     "dev": "yarn webpack-dev-server",
     "build": "yarn webpack --mode production"
   },
